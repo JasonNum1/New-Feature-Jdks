@@ -4,6 +4,10 @@ public class PatternMatchingAndRecords {
         method1(new Point(1, 2));
     }
 
+    /**
+     * 定义测试方法
+     * @param obj
+     */
     static void method1(Object obj) {
         if (obj instanceof Point p) {
             int x = p.i();
@@ -12,6 +16,11 @@ public class PatternMatchingAndRecords {
         }
     }
 
+    /**
+     * 定义Point记录
+     * @param i
+     * @param j
+     */
     record Point(int i, int j) {
         public int i() {
             return i;
