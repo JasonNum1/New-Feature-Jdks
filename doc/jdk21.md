@@ -13,7 +13,7 @@ if (obj instanceof String s) {
 ... use s ...  
 }
 ```
-#### Pattern matching and records
+#### **[Pattern matching and records](../src/PatternMatchingAndRecords.java)**
 ```text
 public class PatternMatchingAndRecords {
     public static void main(String[] args) {
@@ -40,7 +40,7 @@ public class PatternMatchingAndRecords {
     }
 }
 ```
-#### Nested record patterns
+#### **[Nested record patterns](../src/NestedRecordPatterns.java)**
 ```text
 public static void main(String[] args) {
     Rectangle r = new Rectangle(new ColoredPoint(new Point(1, 2), Color.RED),
