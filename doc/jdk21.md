@@ -73,7 +73,7 @@ static void printXCoordOfUpperLeftPointWithPatterns(Rectangle r) {
     }
 }
 ```
-#### Record patterns and exhaustive switch
+#### [Record patterns and exhaustive switch](../src/RecordPatternsAndExhaustiveSwitch.java)
 ```text
 void method1(){
     Pair<A> p1 = new Pair<>(new A(), new B());
