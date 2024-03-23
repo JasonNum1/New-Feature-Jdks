@@ -168,7 +168,7 @@ final class MethodTypeDescImpl implements MethodTypeDesc { ... }
 // DynamicConstantDesc is designed for subclassing by user code
 public non-sealed abstract class DynamicConstantDesc implements ConstantDesc { ... }
 ```
-#### Reflection API
+#### [Reflection API](../src/ReflectionAPI.java)
 - Class<?>[] getPermittedSubclasses()
 - boolean isSealed()
 ```text
