@@ -6,7 +6,7 @@ public class PatternMatchingAndRecords {
 
     /**
      * 定义测试方法
-     * @param obj
+     * @param obj 被验证的对象
      */
     static void method1(Object obj) {
         if (obj instanceof Point p) {
